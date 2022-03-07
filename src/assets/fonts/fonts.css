@@ -1,29 +1,18 @@
+/* ibm-plex-mono-200 - latin */
 @font-face {
-  font-family: 'FKGrotesk-Regular';
-  src:
-    url('FKGrotesk-Regular.woff2') format('woff2'),
-    url("FKGrotesk-Regular.woff") format("woff");
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  src: local(''),
+       url('ibm-plex-mono-v11-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('ibm-plex-mono-v11-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-  font-family: 'FKGrotesk-Medium';
-  src:
-    url('FKGrotesk-Medium.woff2') format('woff2'),
-    url("FKGrotesk-Medium.woff") format("woff");
-  font-weight: 500;
+  font-family: 'ObjectSans-Regular';
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: "FKGrotesk-ThinItalic";
-    src:
-        url("FKGrotesk-ThinItalic.woff2") format("woff2"),
-        url("FKGrotesk-ThinItalic.woff") format("woff");
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
+  font-weight: normal;
+  src: local(''),
+       url('ObjectSans-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('ObjectSans-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

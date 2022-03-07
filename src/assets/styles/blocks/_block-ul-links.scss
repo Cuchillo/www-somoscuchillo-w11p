@@ -1,0 +1,93 @@
+
+.block-ul-links {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	font-family: var(--font-sans);
+	line-height: var(--line-height-sans);
+	font-size: var(--font-size-base);
+	margin: 1.25rem 0
+}
+
+.block-ul-links,
+.block-ul-links bold,
+.block-ul-links strong {
+	font-weight: 200
+}
+
+.block-ul-links li {
+	margin: 0 -2px -2px 0
+}
+
+.block-ul-links li.--mobile {
+	display: none
+}
+
+@media (max-width:480px) {
+	.block-ul-links li.--mobile {
+		display: block
+	}
+	.block-ul-links li.--desktop {
+		display: none
+	}
+}
+
+.block-ul-links a {
+	--height: 3rem;
+	outline: 0;
+	text-decoration: none;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+	padding: .1rem 1.1rem 0;
+	border: 2px solid var(--black);
+	border-radius: calc(var(--height)*0.5);
+	line-height: 1;
+	color: var(--black);
+	height: var(--height);
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.__accessible .block-ul-links a:focus {
+	outline: 2px dashed!important
+}
+
+.block-ul-links a[target=_blank]:after {
+	content: "↗"
+}
+
+.block-ul-links a[download]:after {
+	content: "↓"
+}
+
+.block-ul-links a:hover {
+	background: var(--black);
+	color: var(--white)
+}
+
+@media (max-width:1024px) {
+	.block-ul-links li {
+		margin: 0 -1px -1px 0
+	}
+	.block-ul-links a {
+		border: 1px solid var(--black)
+	}
+}
+
+@media (max-width:480px) {
+	.block-ul-links {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start
+	}
+	.block-ul-links li {
+		margin: 0 -1px -1px 0
+	}
+	.block-ul-links a {
+		border: 1px solid var(--black)
+	}
+}

@@ -1,13 +1,12 @@
 :root {
-    --font-sans: 'FKGrotesk-Regular', sans-serif;
-    --font-sans-bold: 'FKGrotesk-Medium', sans-serif;
-    --font-sans-italic: 'FKGrotesk-ThinItalic', sans-serif;
-
+    --font-sans: "ObjectSans-Regular", sans-serif;
+    --font-mono: "IBM Plex Mono", sans-serif;
+        
     --font-size-xxlarge: #{(360px / 16px) * 1rem};
     --font-size-large: #{(80px / 16px) * 1rem};
     --font-size-xlarge: #{(130px / 16px) * 1rem};
     --font-size-mid: #{(45px / 16px) * 1rem};
-    --font-size-base: #{(18px / 16px) * 1rem};
+    --font-size-base: #{(20px / 16px) * 1rem};
     --font-size-h2: #{(80px / 16px) * 1rem};
     --font-size-h3: #{(40px / 16px) * 1rem};
     --font-size-small: #{(15px / 16px) * 1rem};

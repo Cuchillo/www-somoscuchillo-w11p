@@ -1,0 +1,21 @@
+.block-header {
+	padding: 0
+}
+
+.block-header h1 {
+	font-family: var(--font-sans);
+	line-height: var(--line-height-sans);
+	font-size: var(--font-size-mid);
+	margin: 0
+}
+
+.block-header h1,
+.block-header h1 bold,
+.block-header h1 strong {
+	font-weight: 200
+}
+
+.block-header h1 sup {
+	top: -1em;
+	font-size: .4em
+}
