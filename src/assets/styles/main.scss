@@ -1,12 +1,10 @@
 @import "utils/breakpoints";
-
 @import "variables/colors";
 @import "variables/paths";
 @import "variables/fonts";
 @import "variables/z-index";
 @import "variables/ease";
 @import "variables/sizes";
-
 @import "utils/normalize";
 @import "utils/normalize_cuchillo";
 @import "utils/utils";
@@ -16,14 +14,13 @@
 @import "utils/links";
 @import "utils/cursor";
 @import "utils/acordion";
-
 @import "blocks/block-ul-links";
 @import "blocks/block-3-cols";
+@import "blocks/block-3-kit-digital";
+@import "blocks/block-2-cols";
 @import "blocks/block-header";
-
+@import "blocks/block-img-kit-digital";
 @import "layout/header";
 @import "layout/footer";
-
 @import "blocks/block-default";
-
 @import "general";
