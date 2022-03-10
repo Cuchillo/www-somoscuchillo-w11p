@@ -12,5 +12,7 @@
 }
 
 @media (max-width: $smartphone) {
-  :root {}
+  :root {
+    --padding-m: #{(10px / 16px) * 1rem};
+  }
 }
