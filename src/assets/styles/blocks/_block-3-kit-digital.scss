@@ -84,9 +84,20 @@
 
 hr {
     width: 100%;
-    border-style: solid;
+
+    /* FIX */
+    /*border-style: solid;
     color: var(--grey);
     border-top: 1px;
+    
+    border-top solo funciona metiendo todos los atributos
+    En tu caso para poner solo el tamaño tendria que ser border-top-width
+    */
+    
+    border-top: 2px solid var(--grey);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 .reference-text {
