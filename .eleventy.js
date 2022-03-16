@@ -50,6 +50,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('src/assets/fonts');
   config.addPassthroughCopy('src/assets/social');
   config.addPassthroughCopy('src/assets/images');
+  config.addPassthroughCopy('src/assets/pdf');
 
   // BrowserSync Overrides
   config.setBrowserSyncConfig({
