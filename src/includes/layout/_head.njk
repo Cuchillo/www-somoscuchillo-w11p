@@ -40,7 +40,7 @@
   {# FONTS #}
   {% include "layout/_fonts.njk" %}
 
-  {# ANALITYCS #}
+  {# ANALITYCS 
   {% if google_analytics_code %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async data-src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_code }}" data-cookiecategory="analytics"></script>
@@ -51,7 +51,16 @@
 
         gtag('config', '{{ google_analytics_code }}');
     </script>
-  {% endif %}
+  {% endif %} #}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S6B3MGGKFJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S6B3MGGKFJ');
+  </script>
 
   {# MINCSS #}
   {% include "layout/_inline-css.njk" %}
